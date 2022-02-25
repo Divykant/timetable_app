@@ -5,18 +5,57 @@ export default function Student(){
     return(
         <>
             <div className="main_div">
-                <div>
-                    Select your yr.
-                    <ol>
-                        <li><a href="#">Second Year || II Year</a></li>
-                        <li><a href="#">Third Year || III Year</a></li>
-                        <li><a href="#">Fourth Year || IV Year</a></li>
-                    </ol>
+
+            <h2 className="year_heading">Second Year</h2>
+                <div className="year_div">
+                    <div className="section_div">
+                        <h3 className="section_heading">EN-1</h3>
+                        <img src="img/tt1.jpg" className="tt_img">
+
+                        </img>
+                    </div>
+                    <div className="section_div">
+                        <h3 className="section_heading">EN-2</h3>
+                        <img src="img/tt.jpg" className="tt_img">
+
+                        </img>
+                    </div>
                 </div>
 
-                <div>
-                    <h5>Yeh EN-1 ka hai </h5>
-                    <img src="" alt="yahan img hai"></img>
+            <h2 className="year_heading">Third Year</h2>
+                <div className="year_div">
+                    <div className="section_div">
+                        <h3 className="section_heading">EN-1</h3>
+                        <img src="img/tt.jpg" className="tt_img">
+
+                        </img>
+                    </div>
+
+                    <div className="section_div">
+                        <h3 className="section_heading">EN-2</h3>
+                        <img src="img/tt1.jpg" className="tt_img">
+
+                        </img>
+                    </div>
+                </div>
+
+
+
+            <h2 className="year_heading">Fourth Year</h2>
+                <div className="year_div">
+                    <div className="section_div">
+                        <h3 className="section_heading">EN-1</h3>
+                        <img src="img/tt1.jpg" className="tt_img">
+
+                        </img>
+                    </div>
+
+                    <div className="section_div">
+                        <h3 className="section_heading">EN-2</h3>
+                        <img src="img/tt.jpg" className="tt_img">
+
+                        </img>
+                    </div>
                 </div>
             </div>
 
